@@ -16,14 +16,21 @@
       "supportsTablet": true
     },
     "android": {
+      "hermes": false,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.maheshbairi.dreamspace"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d8e3ae2a-0abf-4ac8-a4ea-f117108c9ca7"
+      }
     }
   }
 }
